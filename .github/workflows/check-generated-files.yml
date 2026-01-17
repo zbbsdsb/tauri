@@ -15,6 +15,15 @@ on:
       - 'crates/tauri-cli/config.schema.json'
       - 'crates/tauri-schema-generator/schemas/*.json'
 
+
+
+
+
+
+
+
+
+
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: true
