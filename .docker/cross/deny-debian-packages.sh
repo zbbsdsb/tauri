@@ -6,6 +6,7 @@ set -euo pipefail
 main() {
     local package
 
+
     for package in "${@}"; do
         echo "Package: ${package}:${TARGET_ARCH}
 Pin: release *
